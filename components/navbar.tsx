@@ -63,7 +63,7 @@ export function Navbar({ onSearch, isLoggedIn = false, userName }: NavbarProps) 
                     {userName}
                   </span>
                 )}
-                <a href="/auth/logout?returnTo=https://course-app-wine-rho.vercel.app./">
+                <a href="/auth/logout?returnTo=https://course-app-wine-rho.vercel.app/">
                   <Button variant="outline" className="border-gray-300 bg-red-600 text-white hover:bg-red-700">
                     Logout
                   </Button>
@@ -136,7 +136,7 @@ export function Navbar({ onSearch, isLoggedIn = false, userName }: NavbarProps) 
                         {userName}
                       </span>
                     )}
-                    <a href="/auth/logout?returnTo=https://course-app-wine-rho.vercel.app./">
+                    <a href="/auth/logout?returnTo=https://course-app-wine-rho.vercel.app/">
                       <Button variant="outline" className="w-full bg-red-600 text-white hover:bg-red-700 mb-2">
                         Logout
                       </Button>

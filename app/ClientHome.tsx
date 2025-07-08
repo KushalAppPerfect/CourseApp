@@ -41,7 +41,7 @@ export default function ClientHome({ isLoggedIn, userName, isAdmin, userRoles }:
         //   return;
         // }
         // After federated logout, redirect to login with prompt=login
-        const returnTo = "https://course-app-wine-rho.vercel.app./";
+        const returnTo = "https://course-app-wine-rho.vercel.app/";
         const logoutUrl = `/auth/logout?returnTo=${encodeURIComponent(returnTo)}`;
         window.location.href = logoutUrl;
       }, 30000); // 30 seconds
